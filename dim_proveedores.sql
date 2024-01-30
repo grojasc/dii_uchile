@@ -66,3 +66,5 @@ $$ LANGUAGE plpgsql;
 -- EXECUTE THE MERGE FUNCTION
 SELECT merge_dim_proveedor();
 
+truncate table dim_proveedor
+select * from public.dim_proveedor
